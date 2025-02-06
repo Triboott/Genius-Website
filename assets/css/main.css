@@ -756,3 +756,14 @@ h1 span {
     border-color: transparent;
   }
 }
+
+.no-select {
+  user-select: none; /* Evita la selección en navegadores modernos */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+}
+
+a.request {
+  display: block;
+}

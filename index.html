@@ -23,16 +23,18 @@
               <li class="l-section section section--is-active" id="home">
                 <div class="intro">
                   <div class="intro--banner animate__animated animate__fadeIn">
-                    <div class="contenedor">
+                    <div class="contenedor no-select">
                       <h1>Welcome to Genius!<span>&#160;</span></h1>
                     </div>
                     <p>Your smart app that answers multiple-choice questions.</p>
                     <hr class="animate__animated animate__bounceIn">
                     <div class="buttonContainer">
-                      <a href="https://drive.google.com/drive/folders/1k1UfneWPXmt0EIXg6rJUk2fh1nqveIPZ?usp=sharing" target="_blank"><button class="animate__animated animate__fadeIn">Request Access</button></a>
+                      <a class="request" href="https://drive.google.com/drive/folders/1k1UfneWPXmt0EIXg6rJUk2fh1nqveIPZ?usp=sharing" target="_blank">
+                        <button class="animate__animated animate__fadeIn no-select">Request Access</button>
+                      </a>
                     </div>
                   </div>
-                  <footer class="animate__animated animate__fadeIn">
+                  <footer class="animate__animated animate__fadeIn no-select">
                     <p>&copy <span id="year"></span> <a href="https://github.com/Triboott" target="_blank">Triboot</a></p>
                     <script>
                       document.getElementById('year').textContent = new Date().getFullYear();
